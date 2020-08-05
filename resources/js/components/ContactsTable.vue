@@ -56,11 +56,6 @@ export default {
     })
   },
 
-  computed: {
-
-
-  },
-
   methods: {
     hasName(contact) {
       return contact.firstName && contact.lastName

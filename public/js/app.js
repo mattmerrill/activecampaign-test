@@ -1965,7 +1965,6 @@ __webpack_require__.r(__webpack_exports__);
       _this.accounts = accounts;
     });
   },
-  computed: {},
   methods: {
     hasName: function hasName(contact) {
       return contact.firstName && contact.lastName;

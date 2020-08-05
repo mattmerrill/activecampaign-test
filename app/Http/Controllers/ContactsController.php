@@ -8,10 +8,7 @@ use Illuminate\Support\Facades\Http;
 class ContactsController extends Controller
 {
     public function __invoke() {
-
-
         return response()->json($this->getContacts());
-        // return response()->json([]);
     }
 
     private function getContacts() {
